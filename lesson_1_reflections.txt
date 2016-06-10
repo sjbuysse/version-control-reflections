@@ -1,0 +1,28 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+If the bug wasn't there before you made those changes, than they are a result of those changes.
+Consequently it makes sense to inspect those changes. 
+You might not remember what changes you made, and this tool easily sums all of them up.
+Inspecting those changes is much more efficient and effective than inspecting the whole file.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+If you implement a couple of changes, and there's a bug all of the sudden, you can compare the new file with an older file
+and see what changes could be the cause of this bug.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, 
+vs having versions automatically saved, like Google Docs does?
+- The con is that you could be completely "in the zone" and keep working on this new feature, rather than committing while you go through it.
+And if then all of the sudden something stopped working that was working 15 minutes ago, you could be looking for the issue for hours.
+- A pro is that versions are logical and make sense to you.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, 
+while others, like Google Docs, treat each file separately?
+I think git was made more with program developing in mind, and with coding all the files interact. 
+So if you want to know what the project looked like 2hrs ago, you need to know how all the projects files looked at that time.
+
+How can you use the commands git log and git diff to view the history of files?
+git log shows you the history of the repo, with all commits and comments
+git log --stat even shows what files were altered
+git diff commit1 commit2 shows the differences made between commit1 and commit2
+
+How might using version control make you more confident to make changes that could break something?
+You know you'll always be able to "go back in time"
