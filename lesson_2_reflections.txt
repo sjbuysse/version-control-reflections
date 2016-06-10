@@ -1,0 +1,9 @@
+What happens when you initialize a repository? Why do you need to do it?
+it adds a folder .git and a log and such 
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+The working directory and repository are decoupled by the staging area.
+The staging area is like a loading dock, that holds the elements of the working directory that will be saved to the repo.
+It is usefull because sometimes you want to split up big changes into smaller changes. 
+Or if you're working on something but then need to fix a small bug, you can commit JUST that bugfix 
+instead of having to make a different branch. 
