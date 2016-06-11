@@ -7,3 +7,11 @@ The staging area is like a loading dock, that holds the elements of the working 
 It is usefull because sometimes you want to split up big changes into smaller changes. 
 Or if you're working on something but then need to fix a small bug, you can commit JUST that bugfix 
 instead of having to make a different branch. 
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+When adding new features, when fixing a bug, when you're doing something experimental, etc.
+but want to keep a clean working production branch
+
+How do the diagrams help you visualize the branch structure?
+You can see which commits are part of which branch, and which commits are reachable from which branch
+and which commits are unreachable
