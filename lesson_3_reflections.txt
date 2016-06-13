@@ -8,3 +8,8 @@ If you're working on something and your local file keeps changing, it might be c
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
 A clone is a replica of a repository from your local machine or github onto your local machine.
 A fork is a replica of a repository from github onto your github account.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+You can work offline, it saves a lot of data overhead when pushing changes to github and it gives the possibility to do a quick check 
+which changes are made in the online repo compared to the offline repository.
+
